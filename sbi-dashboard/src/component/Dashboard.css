@@ -1,0 +1,53 @@
+.dashboard-container {
+    background-color: rgb(228, 226, 223);
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 50px;
+    font-family: 'Arial', sans-serif;
+}
+
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .tiles-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .tile {
+    background-color: aliceblue;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+ .select-container {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .id1 {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 1px solid #ddd; /* Border for the rectangular box */
+    padding: 10px; /* Padding for the content inside the box */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effect for smoother hover */
+}
+
+.id1:hover {
+    background-color: #969696; /* Slightly darker color on hover */
+    transform: scale(1.01); /* Slightly bigger on hover */
+}
